@@ -115,8 +115,8 @@ img {
 
 .container-portray {
   display: grid;
-  grid-template-columns: repeat(10,1fr);
-  grid-template-rows: repeat(8,1fr);
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(4,1fr);
 }
 
 .portray {
@@ -124,17 +124,17 @@ img {
 }
 
 .item-1 {
-  grid-column-start: 6;
-  grid-column-end: 10;
-  grid-row-start: row1-start;
-  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 .item-2 {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: row7-start;
-  grid-row-end: 8;
+  grid-column-start: 4;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .item-3 {
